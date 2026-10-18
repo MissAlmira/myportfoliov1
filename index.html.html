@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almira R. Bogayan | Customer Support & AI Evaluation Specialist</title>
+    <meta name="description" content="Professional portfolio of Almira R. Bogayan, Customer Support & AI Evaluation Specialist based in Antipolo City, Philippines.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            900: '#0B132B',
+                            800: '#1C2541',
+                            700: '#2A3459',
+                        },
+                        offwhite: '#F8F9FA',
+                        teal: {
+                            400: '#38BDF8',
+                            500: '#0EA5E9',
+                            600: '#0284C7',
+                            accent: '#14B8A6'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        serif: ['"Playfair Display"', 'serif'],
+                        mono: ['"JetBrains Mono"', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS Styles -->
+    <style>
+        ::selection {
+            background-color: #14B8A6;
+            color: #0B132B;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0B132B;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2A3459;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #14B8A6;
+        }
+
+        .glass-card {
+            background: rgba(28, 37, 65, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .glass-card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glass-card-hover:hover {
+            transform: translateY(-4px);
+            border-color: rgba(20, 184, 166, 0.4);
+            box-shadow: 0 12px 30px -10px rgba(20, 184, 166, 0.15);
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #F8F9FA 0%, #14B8A6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Accessibility: Reduced Motion */
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+            *, ::before, ::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-navy-900 text-offwhite font-sans antialiased selection:bg-teal-accent selection:text-navy-900 flex flex-col min-h-screen">
+
+    <header class="sticky top-0 z-40 w-full glass-card border-b border-white/10 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand / AB Monogram -->
+                <a href="#hero" class="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-teal-accent rounded-lg p-1">
+                    <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-teal-accent to-navy-700 flex items-center justify-center font-serif font-bold text-navy-900 text-xl shadow-lg group-hover:scale-105 transition-transform">
+                        AB
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-bold tracking-tight text-white group-hover:text-teal-accent transition-colors">Almira R. Bogayan</span>
+                        <span class="text-xs text-gray-400 font-mono">Support & AI Specialist</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center gap-1 lg:gap-2">
+                    <a href="#about" class="px-3 py-2 text-sm font-medium text-gray-300 hover:text-teal-accent transition-colors rounded-md hover:bg-white/5">About</a>
+                    <a href="#skills" class="px-3 py-2 text-sm font-medium text-gray-300 hover:text-teal-accent transition-colors rounded-md hover:bg-white/5">Skills</a>
+                    <a href="#cases" class="px-3 py-2 text-sm font-medium text-gray-300 hover:text-teal-accent transition-colors rounded-md hover:bg-white/5">Case Studies</a>
+                    <a href="#ai-evaluation" class="px-3 py-2 text-sm font-medium text-gray-300 hover:text-teal-accent transition-colors rounded-md hover:bg-white/5">AI Evaluation</a>
+                    <a href="#workflows" class="px-3 py-2 text-sm font-medium text-gray-300 hover:text-teal-accent transition-colors rounded-md hover:bg-white/5">Workflows</a>
+                    <a href="#personal" class="px-3 py-2 text-sm font-medium text-gray-300 hover:text-teal-accent transition-colors rounded-md hover:bg-white/5">Interests</a>
+                    <a href="#resume" class="px-3 py-2 text-sm font-medium text-gray-300 hover:text-teal-accent transition-colors rounded-md hover:bg-white/5">Resume</a>
+                    <a href="#contact" class="ml-2 px-4 py-2 text-sm font-semibold text-navy-900 bg-teal-accent hover:bg-teal-400 rounded-lg shadow-md transition-all">Contact Me</a>
+                </nav>
+
+                <!-- Mobile Hamburger Button -->
+                <button id="mobile-menu-btn" type="button" aria-label="Toggle navigation menu" aria-expanded="false" class="md:hidden p-2 rounded-lg text-gray-300 hover:text-white hover:bg-navy-800 focus:outline-none focus:ring-2 focus:ring-teal-accent">
+                    <i class="fa-solid fa-bars text-xl" id="menu-icon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden md:hidden border-b border-white/10 bg-navy-900/95 backdrop-blur-xl px-4 pt-2 pb-6 space-y-2">
+            <a href="#about" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-teal-accent hover:bg-navy-800">About</a>
+            <a href="#skills" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-teal-accent hover:bg-navy-800">Skills</a>
+            <a href="#cases" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-teal-accent hover:bg-navy-800">Case Studies</a>
+            <a href="#ai-evaluation" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-teal-accent hover:bg-navy-800">AI Evaluation</a>
+            <a href="#workflows" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-teal-accent hover:bg-navy-800">Workflows</a>
+            <a href="#personal" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-teal-accent hover:bg-navy-800">Interests</a>
+            <a href="#resume" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-teal-accent hover:bg-navy-800">Resume</a>
+            <a href="#contact" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-semibold text-center text-navy-900 bg-teal-accent hover:bg-teal-400 mt-4">Contact Me</a>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <section id="hero" class="relative min-h-[calc(100vh-5rem)] flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
+            <!-- Subtle Radial Gradient Backgrounds -->
+            <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-teal-accent/10 rounded-full blur-[120px] pointer-events-none"></div>
+            <div class="absolute bottom-10 right-10 w-72 h-72 bg-navy-700/50 rounded-full blur-[90px] pointer-events-none"></div>
+
+            <div class="max-w-4xl mx-auto text-center relative z-10 space-y-8">
+                <!-- Location & Status Badge -->
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-card text-xs sm:text-sm font-medium text-gray-300 border border-teal-accent/30">
+                    <span class="w-2 h-2 rounded-full bg-teal-accent animate-pulse"></span>
+                    <span>Antipolo City, Rizal, Philippines</span>
+                    <span class="text-gray-500">|</span>
+                    <span class="text-teal-accent">Open for Remote Roles</span>
+                </div>
+
+                <!-- Hero Name and Headline -->
+                <div class="space-y-4">
+                    <h1 class="text-4xl sm:text-6xl lg:text-7xl font-serif font-bold tracking-tight text-white">
+                        Almira R. Bogayan
+                    </h1>
+                    <p class="text-xl sm:text-2xl font-medium gradient-text">
+                        Customer Support & AI Evaluation Specialist
+                    </p>
+                </div>
+
+                <!-- Short Bio -->
+                <p class="text-base sm:text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
+                    Bridging human empathy and artificial intelligence. Specialized in high-stakes email support, CRM ticket management, rubric-driven AI evaluation (H2H / SxS), and bilingual transcription (English & Tagalog).
+                </p>
+
+                <!-- Action Buttons -->
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+                    <a href="#cases" class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-teal-accent text-navy-900 font-semibold hover:bg-teal-400 transition-all shadow-lg shadow-teal-accent/20 flex items-center justify-center gap-2">
+                        <span>Explore Demonstrations</span>
+                        <i class="fa-solid fa-arrow-down text-sm"></i>
+                    </a>
+                    <a href="#contact" class="w-full sm:w-auto px-8 py-3.5 rounded-xl glass-card text-white font-medium hover:bg-white/10 transition-all border border-white/20 flex items-center justify-center gap-2">
+                        <span>Get In Touch</span>
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                </div>
+
+                <!-- Quick Highlight Badges -->
+                <div class="pt-12 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
+                    <div class="glass-card p-4 rounded-xl text-center">
+                        <i class="fa-solid fa-headset text-teal-accent text-xl mb-2"></i>
+                        <div class="text-xs text-gray-400 font-mono uppercase tracking-wider">Experience</div>
+                        <div class="text-sm font-semibold text-white mt-0.5">8+ Years Email Support</div>
+                    </div>
+                    <div class="glass-card p-4 rounded-xl text-center">
+                        <i class="fa-solid fa-robot text-teal-accent text-xl mb-2"></i>
+                        <div class="text-xs text-gray-400 font-mono uppercase tracking-wider">AI Quality</div>
+                        <div class="text-sm font-semibold text-white mt-0.5">SxS & H2H Evaluation</div>
+                    </div>
+                    <div class="glass-card p-4 rounded-xl text-center">
+                        <i class="fa-solid fa-language text-teal-accent text-xl mb-2"></i>
+                        <div class="text-xs text-gray-400 font-mono uppercase tracking-wider">Linguistics</div>
+                        <div class="text-sm font-semibold text-white mt-0.5">EN / Tagalog Transcription</div>
+                    </div>
+                    <div class="glass-card p-4 rounded-xl text-center">
+                        <i class="fa-solid fa-graduation-cap text-teal-accent text-xl mb-2"></i>
+                        <div class="text-xs text-gray-400 font-mono uppercase tracking-wider">Education</div>
+                        <div class="text-sm font-semibold text-white mt-0.5">B. Ad & PR (PUP)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-mono uppercase tracking-widest text-teal-accent mb-2">Background & Experience</h2>
+                <p class="text-3xl font-serif font-bold text-white">About Almira</p>
+                <div class="w-12 h-1 bg-teal-accent mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 items-start">
+                <!-- Professional Profile Overview -->
+                <div class="glass-card p-8 rounded-2xl space-y-6">
+                    <h3 class="text-xl font-bold text-white flex items-center gap-3">
+                        <i class="fa-solid fa-user-check text-teal-accent"></i>
+                        Professional Summary
+                    </h3>
+                    <p class="text-gray-300 leading-relaxed text-sm sm:text-base">
+                        With over eight years in high-volume customer support for a major ride-hailing and food-delivery account, I specialize in resolving complex inquiries, mediating critical partner issues, and upholding elevated satisfaction standards.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed text-sm sm:text-base">
+                        Expanding into artificial intelligence annotation, I perform Head-to-Head (H2H) and Side-by-Side (SxS) comparisons, auditing Model LLM responses for factual adherence, rubric alignment, safety, and conciseness.
+                    </p>
+
+                    <div class="pt-4 border-t border-white/10 space-y-3">
+                        <div class="flex items-center justify-between text-sm">
+                            <span class="text-gray-400">Location:</span>
+                            <span class="text-white font-medium">Antipolo City, Rizal, Philippines</span>
+                        </div>
+                        <div class="flex items-center justify-between text-sm">
+                            <span class="text-gray-400">Degree:</span>
+                            <span class="text-white font-medium">Bachelor in Advertising & PR</span>
+                        </div>
+                        <div class="flex items-center justify-between text-sm">
+                            <span class="text-gray-400">Primary Languages:</span>
+                            <span class="text-white font-medium">English & Tagalog (Filipino)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Career Timeline -->
+                <div class="space-y-6">
+                    <h3 class="text-xl font-bold text-white flex items-center gap-3 px-2">
+                        <i class="fa-solid fa-briefcase text-teal-accent"></i>
+                        Experience & Education
+                    </h3>
+
+                    <div class="relative pl-6 border-l-2 border-teal-accent/30 space-y-8">
+                        <!-- Timeline Item 1 -->
+                        <div class="relative group">
+                            <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-navy-900 border-2 border-teal-accent group-hover:scale-125 transition-transform"></div>
+                            <div class="glass-card p-6 rounded-xl">
+                                <div class="flex flex-wrap justify-between items-start gap-2 mb-2">
+                                    <h4 class="font-bold text-white">Concentrix Philippines</h4>
+                                    <span class="px-2.5 py-0.5 rounded-full bg-teal-accent/10 text-teal-accent font-mono text-xs">2016 – Present</span>
+                                </div>
+                                <p class="text-sm text-teal-400 font-medium mb-3">Email Support / Customer Support Specialist (Ride-Hailing & Delivery Account)</p>
+                                <ul class="text-xs sm:text-sm text-gray-300 space-y-1.5 list-disc list-inside">
+                                    <li>Delivered empathetic, high-quality email case resolutions for rider, merchant, and customer accounts.</li>
+                                    <li>Managed customer case escalation and CRM documentation using Bliss, Salesforce, and Zendesk platforms.</li>
+                                    <li>Maintained strict adherence to SLAs, quality benchmarks, and security policies.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Item 2 -->
+                        <div class="relative group">
+                            <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-navy-900 border-2 border-teal-accent group-hover:scale-125 transition-transform"></div>
+                            <div class="glass-card p-6 rounded-xl">
+                                <div class="flex flex-wrap justify-between items-start gap-2 mb-2">
+                                    <h4 class="font-bold text-white">Outlier</h4>
+                                    <span class="px-2.5 py-0.5 rounded-full bg-white/10 text-gray-300 font-mono text-xs">Freelance</span>
+                                </div>
+                                <p class="text-sm text-teal-400 font-medium mb-3">AI Evaluation & Audio Transcription Contributor</p>
+                                <p class="text-xs sm:text-sm text-gray-300">
+                                    Evaluates AI model outputs using SxS and H2H evaluation methodologies. Audits safety, helpfulness, and prompt constraint fulfillment, alongside providing precise English and Tagalog audio transcription.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Item 3 -->
+                        <div class="relative group">
+                            <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-navy-900 border-2 border-teal-accent group-hover:scale-125 transition-transform"></div>
+                            <div class="glass-card p-6 rounded-xl">
+                                <div class="flex flex-wrap justify-between items-start gap-2 mb-2">
+                                    <h4 class="font-bold text-white">Red Chair Advertising</h4>
+                                    <span class="px-2.5 py-0.5 rounded-full bg-white/10 text-gray-300 font-mono text-xs">Internship</span>
+                                </div>
+                                <p class="text-sm text-teal-400 font-medium mb-2">Creative & Research Department Intern</p>
+                                <p class="text-xs sm:text-sm text-gray-300">
+                                    Supported campaign qualitative research, consumer trend synthesis, and creative conceptualization drafts.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Item 4: Education -->
+                        <div class="relative group">
+                            <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-navy-900 border-2 border-teal-accent group-hover:scale-125 transition-transform"></div>
+                            <div class="glass-card p-6 rounded-xl">
+                                <div class="flex flex-wrap justify-between items-start gap-2 mb-1">
+                                    <h4 class="font-bold text-white">Polytechnic University of the Philippines</h4>
+                                    <span class="px-2.5 py-0.5 rounded-full bg-white/10 text-gray-300 font-mono text-xs">2011 – 2015</span>
+                                </div>
+                                <p class="text-sm text-teal-400 font-medium">Bachelor in Advertising and Public Relations</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-mono uppercase tracking-widest text-teal-accent mb-2">Core Competencies</h2>
+                <p class="text-3xl font-serif font-bold text-white">Skills Matrix</p>
+                <div class="w-12 h-1 bg-teal-accent mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Skill Category 1 -->
+                <div class="glass-card p-6 rounded-2xl glass-card-hover border-t-2 border-t-teal-accent">
+                    <div class="w-12 h-12 rounded-xl bg-teal-accent/10 flex items-center justify-center text-teal-accent text-2xl mb-4">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-white mb-3">Customer Support</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Email Communication</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Customer Case Handling</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> CRM Documentation</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Escalation Resolution</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> SLA Adherence</li>
+                    </ul>
+                </div>
+
+                <!-- Skill Category 2 -->
+                <div class="glass-card p-6 rounded-2xl glass-card-hover border-t-2 border-t-teal-accent">
+                    <div class="w-12 h-12 rounded-xl bg-teal-accent/10 flex items-center justify-center text-teal-accent text-2xl mb-4">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-white mb-3">AI Evaluation</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> H2H & SxS Comparisons</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Rubric-Based Auditing</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Instruction-Following Review</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Factuality Verification</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Safety & Harm Auditing</li>
+                    </ul>
+                </div>
+
+                <!-- Skill Category 3 -->
+                <div class="glass-card p-6 rounded-2xl glass-card-hover border-t-2 border-t-teal-accent">
+                    <div class="w-12 h-12 rounded-xl bg-teal-accent/10 flex items-center justify-center text-teal-accent text-2xl mb-4">
+                        <i class="fa-solid fa-microphone-lines"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-white mb-3">Language & Audio</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> English Transcription</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Filipino/Tagalog Transcription</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Audio Quality Review</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Dialect & Context Nuance</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Verbatim & Clean Auditing</li>
+                    </ul>
+                </div>
+
+                <!-- Skill Category 4 -->
+                <div class="glass-card p-6 rounded-2xl glass-card-hover border-t-2 border-t-teal-accent">
+                    <div class="w-12 h-12 rounded-xl bg-teal-accent/10 flex items-center justify-center text-teal-accent text-2xl mb-4">
+                        <i class="fa-solid fa-toolbox"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-white mb-3">Tools & Systems</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Zendesk Support Suite</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Salesforce CRM</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Bliss Internal Tooling</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Outlier Evaluation Hub</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-teal-accent"></i> Google Workspace / MS Office</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="cases" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-mono uppercase tracking-widest text-teal-accent mb-2">Demonstrations & Email Writing</h2>
+                <p class="text-3xl font-serif font-bold text-white">Email Support Case Studies</p>
+                <div class="w-12 h-1 bg-teal-accent mx-auto mt-4 rounded-full mb-4"></div>
+                <div class="p-3 bg-teal-accent/10 border border-teal-accent/30 rounded-xl inline-block text-xs text-teal-300">
+                    <i class="fa-solid fa-circle-info mr-1"></i> Fictional portfolio demonstrations designed to showcase tone, empathy, and procedural logic.
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Case Study 1 -->
+                <div class="glass-card rounded-2xl border border-white/10 overflow-hidden">
+                    <button class="w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none focus:ring-2 focus:ring-teal-accent accordion-header" onclick="toggleAccordion('case-1')">
+                        <div class="flex items-center gap-4">
+                            <span class="w-10 h-10 rounded-xl bg-teal-500/20 text-teal-accent flex items-center justify-center font-mono font-bold text-sm">01</span>
+                            <div>
+                                <h3 class="font-bold text-lg text-white">Delayed Delivery & Merchant Inquiry</h3>
+                                <p class="text-xs text-gray-400">Category: Delivery Logistics & Customer Remediation</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-chevron-down text-gray-400 transition-transform duration-300" id="case-1-icon"></i>
+                    </button>
+
+                    <div id="case-1" class="hidden px-6 pb-6 pt-2 border-t border-white/5 space-y-6">
+                        <!-- Fictional Inquiry -->
+                        <div class="bg-navy-900/80 p-4 rounded-xl border border-white/5">
+                            <div class="text-xs font-mono text-teal-accent mb-1">CUSTOMER INQUIRY</div>
+                            <p class="text-sm text-gray-300 italic">"My order #89412 was supposed to arrive 40 minutes ago. The app says the courier is still at the merchant. I need this food for a meeting right now!"</p>
+                        </div>
+
+                        <!-- Email Response -->
+                        <div class="relative bg-navy-800/90 p-5 rounded-xl border border-teal-accent/20 font-sans">
+                            <div class="flex justify-between items-center mb-3">
+                                <span class="text-xs font-mono text-teal-accent">PROFESSIONAL RESPONSE</span>
+                                <button onclick="copyToClipboard('email-1', this)" class="text-xs text-gray-300 hover:text-teal-accent flex items-center gap-1 bg-white/5 hover:bg-white/10 px-2.5 py-1 rounded transition-colors">
+                                    <i class="fa-regular fa-copy"></i> <span>Copy Email</span>
+                                </button>
+                            </div>
+                            <div id="email-1" class="text-sm text-gray-200 space-y-3 font-mono leading-relaxed">
+                                <p><strong>Subject:</strong> Update regarding your order #89412</p>
+                                <p>Hi Alex,</p>
+                                <p>Thank you for reaching out to us. I completely understand how critical timing is, especially with an upcoming meeting, and I sincerely apologize for the delay with order #89412.</p>
+                                <p>I have personally connected with both the merchant and the delivery partner. The restaurant experienced a sudden peak volume, but your order is now packed and the driver is currently en route to your location. Your updated estimated arrival time is within the next 10 to 12 minutes.</p>
+                                <p>To help make up for this inconvenience, I have applied a $10 credit to your account balance for your next meal. You can view your real-time courier movement live in the app link below.</p>
+                                <p>Please let me know if there is anything else I can assist you with!</p>
+                                <p>Best regards,<br>Almira R.<br>Customer Support Team</p>
+                            </div>
+                        </div>
+
+                        <!-- Explanations & Next Steps Grid -->
+                        <div class="grid md:grid-cols-2 gap-4 text-xs">
+                            <div class="p-4 bg-white/5 rounded-xl border border-white/5 space-y-1">
+                                <span class="font-bold text-teal-accent block mb-1"><i class="fa-solid fa-lightbulb"></i> Why This Response Works</span>
+                                <p class="text-gray-300">Acknowledges urgency immediately without defensiveness. Investigates the root cause proactively and offers clear credit remediation to retain trust.</p>
+                            </div>
+                            <div class="p-4 bg-white/5 rounded-xl border border-white/5 space-y-1">
+                                <span class="font-bold text-teal-accent block mb-1"><i class="fa-solid fa-list-check"></i> Procedural Next Steps</span>
+                                <ul class="list-disc list-inside text-gray-300 space-y-1">
+                                    <li>Flag merchant prep time anomaly in Bliss CRM.</li>
+                                    <li>Monitor driver GPS until delivery is marked fulfilled.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 2 -->
+                <div class="glass-card rounded-2xl border border-white/10 overflow-hidden">
+                    <button class="w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none focus:ring-2 focus:ring-teal-accent accordion-header" onclick="toggleAccordion('case-2')">
+                        <div class="flex items-center gap-4">
+                            <span class="w-10 h-10 rounded-xl bg-teal-500/20 text-teal-accent flex items-center justify-center font-mono font-bold text-sm">02</span>
+                            <div>
+                                <h3 class="font-bold text-lg text-white">Missing or Incorrect Order Items</h3>
+                                <p class="text-xs text-gray-400">Category: Order Discrepancies & Refund Policy</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-chevron-down text-gray-400 transition-transform duration-300" id="case-2-icon"></i>
+                    </button>
+
+                    <div id="case-2" class="hidden px-6 pb-6 pt-2 border-t border-white/5 space-y-6">
+                        <div class="bg-navy-900/80 p-4 rounded-xl border border-white/5">
+                            <div class="text-xs font-mono text-teal-accent mb-1">CUSTOMER INQUIRY</div>
+                            <p class="text-sm text-gray-300 italic">"We ordered dinner for 4 people from Green Bistro, but the main dish and drinks were completely missing from the sealed bag. I want a full refund."</p>
+                        </div>
+
+                        <div class="relative bg-navy-800/90 p-5 rounded-xl border border-teal-accent/20 font-sans">
+                            <div class="flex justify-between items-center mb-3">
+                                <span class="text-xs font-mono text-teal-accent">PROFESSIONAL RESPONSE</span>
+                                <button onclick="copyToClipboard('email-2', this)" class="text-xs text-gray-300 hover:text-teal-accent flex items-center gap-1 bg-white/5 hover:bg-white/10 px-2.5 py-1 rounded transition-colors">
+                                    <i class="fa-regular fa-copy"></i> <span>Copy Email</span>
+                                </button>
+                            </div>
+                            <div id="email-2" class="text-sm text-gray-200 space-y-3 font-mono leading-relaxed">
+                                <p><strong>Subject:</strong> Resolution regarding your Green Bistro order</p>
+                                <p>Hi Sarah,</p>
+                                <p>Thank you for bringing this to our attention. I am so sorry to hear that key items were missing from your family dinner tonight. I know how disappointing this experience must be.</p>
+                                <p>I have immediately processed a partial refund of $28.50 for the missing main entree and beverages back to your original payment method (Visa ending in 4021). Depending on your bank, this credit will reflect in 3–5 business days.</p>
+                                <p>Additionally, I have logged a direct complaint with Green Bistro’s store manager to review their item verification protocol before sealing delivery bags.</p>
+                                <p>Please let me know if I can assist with reordering or further account adjustments.</p>
+                                <p>Warm regards,<br>Almira R.<br>Customer Support Specialist</p>
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-4 text-xs">
+                            <div class="p-4 bg-white/5 rounded-xl border border-white/5 space-y-1">
+                                <span class="font-bold text-teal-accent block mb-1"><i class="fa-solid fa-lightbulb"></i> Why This Response Works</span>
+                                <p class="text-gray-300">Provides clear monetary breakdown of partial refunds while validating customer frustration. Establishes merchant accountability.</p>
+                            </div>
+                            <div class="p-4 bg-white/5 rounded-xl border border-white/5 space-y-1">
+                                <span class="font-bold text-teal-accent block mb-1"><i class="fa-solid fa-list-check"></i> Procedural Next Steps</span>
+                                <ul class="list-disc list-inside text-gray-300 space-y-1">
+                                    <li>Tag ticket as "Merchant Packaging Error".</li>
+                                    <li>Issue refund transaction code via Zendesk integration.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 3 -->
+                <div class="glass-card rounded-2xl border border-white/10 overflow-hidden">
+                    <button class="w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none focus:ring-2 focus:ring-teal-accent accordion-header" onclick="toggleAccordion('case-3')">
+                        <div class="flex items-center gap-4">
+                            <span class="w-10 h-10 rounded-xl bg-teal-500/20 text-teal-accent flex items-center justify-center font-mono font-bold text-sm">03</span>
+                            <div>
+                                <h3 class="font-bold text-lg text-white">Driver Payout Discrepancy</h3>
+                                <p class="text-xs text-gray-400">Category: Partner Relations & Financial Audit</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-chevron-down text-gray-400 transition-transform duration-300" id="case-3-icon"></i>
+                    </button>
+
+                    <div id="case-3" class="hidden px-6 pb-6 pt-2 border-t border-white/5 space-y-6">
+                        <div class="bg-navy-900/80 p-4 rounded-xl border border-white/5">
+                            <div class="text-xs font-mono text-teal-accent mb-1">PARTNER INQUIRY</div>
+                            <p class="text-sm text-gray-300 italic">"My weekly earnings statement shows $320, but according to my trip logs, I completed 28 trips plus peak surge bonus which should equal $385. Please fix this."</p>
+                        </div>
+
+                        <div class="relative bg-navy-800/90 p-5 rounded-xl border border-teal-accent/20 font-sans">
+                            <div class="flex justify-between items-center mb-3">
+                                <span class="text-xs font-mono text-teal-accent">PROFESSIONAL RESPONSE</span>
+                                <button onclick="copyToClipboard('email-3', this)" class="text-xs text-gray-300 hover:text-teal-accent flex items-center gap-1 bg-white/5 hover:bg-white/10 px-2.5 py-1 rounded transition-colors">
+                                    <i class="fa-regular fa-copy"></i> <span>Copy Email</span>
+                                </button>
+                            </div>
+                            <div id="email-3" class="text-sm text-gray-200 space-y-3 font-mono leading-relaxed">
+                                <p><strong>Subject:</strong> Earnings statement audit for Week 42 (Driver ID: #7712)</p>
+                                <p>Hi Marcus,</p>
+                                <p>Thank you for contacting Partner Support. We appreciate your dedication and want to ensure your pay statement is 100% accurate.</p>
+                                <p>I conducted a line-item review of your 28 trips for Week 42. I identified that the $65 surge incentive bonus for Friday evening was held under standard 24-hour verification due to a system audit delay.</p>
+                                <p>I have manually validated your surge eligibility and released the $65 adjustment. This bonus will appear as a manual adjustment in your driver portal within 2 hours and will be included in tonight's direct deposit.</p>
+                                <p>Thank you for driving with us!</p>
+                                <p>Best regards,<br>Almira R.<br>Partner Support Specialist</p>
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-4 text-xs">
+                            <div class="p-4 bg-white/5 rounded-xl border border-white/5 space-y-1">
+                                <span class="font-bold text-teal-accent block mb-1"><i class="fa-solid fa-lightbulb"></i> Why This Response Works</span>
+                                <p class="text-gray-300">Respects partner time and income. Explains the exact technical cause without jargon and gives a precise timeframe for resolution.</p>
+                            </div>
+                            <div class="p-4 bg-white/5 rounded-xl border border-white/5 space-y-1">
+                                <span class="font-bold text-teal-accent block mb-1"><i class="fa-solid fa-list-check"></i> Procedural Next Steps</span>
+                                <ul class="list-disc list-inside text-gray-300 space-y-1">
+                                    <li>Submit manual adjustment approval in Salesforce CRM.</li>
+                                    <li>Confirm direct deposit batch status.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 4 -->
+                <div class="glass-card rounded-2xl border border-white/10 overflow-hidden">
+                    <button class="w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none focus:ring-2 focus:ring-teal-accent accordion-header" onclick="toggleAccordion('case-4')">
+                        <div class="flex items-center gap-4">
+                            <span class="w-10 h-10 rounded-xl bg-teal-500/20 text-teal-accent flex items-center justify-center font-mono font-bold text-sm">04</span>
+                            <div>
+                                <h3 class="font-bold text-lg text-white">Incorrect or Unavailable Business Listings</h3>
+                                <p class="text-xs text-gray-400">Category: Merchant Support & Data Verification</p>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-chevron-down text-gray-400 transition-transform duration-300" id="case-4-icon"></i>
+                    </button>
+
+                    <div id="case-4" class="hidden px-6 pb-6 pt-2 border-t border-white/5 space-y-6">
+                        <div class="bg-navy-900/80 p-4 rounded-xl border border-white/5">
+                            <div class="text-xs font-mono text-teal-accent mb-1">MERCHANT INQUIRY</div>
+                            <p class="text-sm text-gray-300 italic">"Our cafe moved to 458 Maple St two weeks ago, but drivers keep going to our old location. Customers are canceling orders!"</p>
+                        </div>
+
+                        <div class="relative bg-navy-800/90 p-5 rounded-xl border border-teal-accent/20 font-sans">
+                            <div class="flex justify-between items-center mb-3">
+                                <span class="text-xs font-mono text-teal-accent">PROFESSIONAL RESPONSE</span>
+                                <button onclick="copyToClipboard('email-4', this)" class="text-xs text-gray-300 hover:text-teal-accent flex items-center gap-1 bg-white/5 hover:bg-white/10 px-2.5 py-1 rounded transition-colors">
+                                    <i class="fa-regular fa-copy"></i> <span>Copy Email</span>
+                                </button>
+                            </div>
+                            <div id="email-4" class="text-sm text-gray-200 space-y-3 font-mono leading-relaxed">
+                                <p><strong>Subject:</strong> Urgent: Store Location Update Confirmation for Store #4091</p>
+                                <p>Hi Management Team,</p>
+                                <p>Thank you for notifying us. I recognize how critical accurate navigation is for your store's operations and order fulfillment.</p>
+                                <p>I have expedited your address update request in our merchant database. Your primary address is now updated to <strong>458 Maple St</strong> with updated GPS pinpoint markers for driver navigation.</p>
+                                <p>This change is live across our network as of 10 minutes ago. Drivers accepting new orders will be routed exclusively to your new premises.</p>
+                                <p>Best regards,<br>Almira R.<br>Merchant Operations Support</p>
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-4 text-xs">
+                            <div class="p-4 bg-white/5 rounded-xl border border-white/5 space-y-1">
+                                <span class="font-bold text-teal-accent block mb-1"><i class="fa-solid fa-lightbulb"></i> Why This Response Works</span>
+                                <p class="text-gray-300">Resolves map routing latency immediately and reassures the business owner with live system verification.</p>
+                            </div>
+                            <div class="p-4 bg-white/5 rounded-xl border border-white/5 space-y-1">
+                                <span class="font-bold text-teal-accent block mb-1"><i class="fa-solid fa-list-check"></i> Procedural Next Steps</span>
+                                <ul class="list-disc list-inside text-gray-300 space-y-1">
+                                    <li>Update geo-fence markers in internal map editor.</li>
+                                    <li>Clear legacy dispatch cache for zipcode.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai-evaluation" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-mono uppercase tracking-widest text-teal-accent mb-2">Quality & Language Auditing</h2>
+                <p class="text-3xl font-serif font-bold text-white">AI Evaluation & Transcription</p>
+                <div class="w-12 h-1 bg-teal-accent mx-auto mt-4 rounded-full mb-4"></div>
+                <div class="p-3 bg-teal-accent/10 border border-teal-accent/30 rounded-xl inline-block text-xs text-teal-300">
+                    <i class="fa-solid fa-vial mr-1"></i> Fictional evaluation examples illustrating H2H, SxS, and audio transcription workflows.
+                </div>
+            </div>
+
+            <!-- Tab Buttons -->
+            <div class="flex flex-wrap justify-center gap-2 mb-8">
+                <button onclick="switchTab('h2h')" id="tab-btn-h2h" class="tab-btn px-5 py-2.5 rounded-xl text-sm font-semibold transition-all bg-teal-accent text-navy-900 shadow-lg">
+                    Head-to-Head (H2H)
+                </button>
+                <button onclick="switchTab('sxs')" id="tab-btn-sxs" class="tab-btn px-5 py-2.5 rounded-xl text-sm font-semibold transition-all bg-white/5 text-gray-300 hover:bg-white/10">
+                    Side-by-Side (SxS)
+                </button>
+                <button onclick="switchTab('transcription')" id="tab-btn-transcription" class="tab-btn px-5 py-2.5 rounded-xl text-sm font-semibold transition-all bg-white/5 text-gray-300 hover:bg-white/10">
+                    Audio Transcription
+                </button>
+            </div>
+
+            <!-- Tab Content Container -->
+            <div class="glass-card p-6 sm:p-8 rounded-2xl border border-white/10">
+                <!-- Tab 1: H2H Evaluation -->
+                <div id="tab-content-h2h" class="tab-content space-y-6">
+                    <div class="border-b border-white/10 pb-4">
+                        <span class="text-xs font-mono text-teal-accent uppercase tracking-wider">PROMPT DEMO</span>
+                        <p class="text-white font-medium mt-1">"Write a polite, 2-sentence response denying a refund request due to expired policy (30 days limit)."</p>
+                    </div>
+
+                    <div class="grid lg:grid-cols-2 gap-6">
+                        <!-- Model A -->
+                        <div class="bg-navy-900/90 p-5 rounded-xl border border-white/10 space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-gray-300">Model A Response</span>
+                                <span class="px-2 py-0.5 bg-red-500/20 text-red-300 text-xs rounded">Failed Criteria</span>
+                            </div>
+                            <p class="text-xs text-gray-300 font-mono italic bg-white/5 p-3 rounded">
+                                "We cannot refund your item because 30 days have passed. You should check our refund policy before buying products on our website."
+                            </p>
+                            <div class="text-xs text-red-400 space-y-1">
+                                <div>• Tone: Blunt and slightly accusatory.</div>
+                                <div>• Constraint Check: 2 sentences, but lacks politeness guidelines.</div>
+                            </div>
+                        </div>
+
+                        <!-- Model B -->
+                        <div class="bg-navy-900/90 p-5 rounded-xl border border-teal-accent/40 space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="font-bold text-teal-accent">Model B Response</span>
+                                <span class="px-2 py-0.5 bg-teal-500/20 text-teal-300 text-xs rounded">Winner (Slightly Better)</span>
+                            </div>
+                            <p class="text-xs text-gray-300 font-mono italic bg-white/5 p-3 rounded">
+                                "Thank you for reaching out, but unfortunately, we are unable to process a refund as your order exceeds our 30-day return window. We truly appreciate your understanding and are happy to help with any other questions."
+                            </p>
+                            <div class="text-xs text-teal-300 space-y-1">
+                                <div>• Tone: Professional, courteous, empathetic.</div>
+                                <div>• Constraint Check: Exactly 2 sentences, full rubric compliance.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/5 p-4 rounded-xl text-xs space-y-1 border border-white/5">
+                        <span class="font-bold text-teal-accent block"><i class="fa-solid fa-gavel"></i> Justification / Rating Rationale</span>
+                        <p class="text-gray-300">Model B selected as winner. Model B followed both length constraints and tone guidelines effectively. Model A was unnecessarily hostile towards the user.</p>
+                    </div>
+                </div>
+
+                <!-- Tab 2: SxS Evaluation -->
+                <div id="tab-content-sxs" class="tab-content hidden space-y-6">
+                    <div class="border-b border-white/10 pb-4">
+                        <span class="text-xs font-mono text-teal-accent uppercase tracking-wider">RUBRIC-BASED AUDIT</span>
+                        <p class="text-white font-medium mt-1">Prompt: "Summarize the steps to reset a router password in bullet points."</p>
+                    </div>
+
+                    <div class="grid lg:grid-cols-2 gap-6">
+                        <div class="bg-navy-900/90 p-5 rounded-xl border border-white/10 space-y-3">
+                            <div class="font-bold text-gray-300 text-sm">Response Output 1</div>
+                            <p class="text-xs text-gray-300 font-mono bg-white/5 p-3 rounded">
+                                To reset your router: 1. Hold reset button for 10 sec. 2. Log into 192.168.1.1. 3. Enter default admin credentials.
+                            </p>
+                            <div class="text-xs text-yellow-400">
+                                Rating: Satisfactory (Used numbered list instead of bullet points requested).
+                            </div>
+                        </div>
+
+                        <div class="bg-navy-900/90 p-5 rounded-xl border border-teal-accent/40 space-y-3">
+                            <div class="font-bold text-teal-accent text-sm">Response Output 2</div>
+                            <ul class="text-xs text-gray-300 font-mono bg-white/5 p-3 rounded list-disc list-inside space-y-1">
+                                <li>Locate physical reset pinhole button.</li>
+                                <li>Press and hold for 10–15 seconds.</li>
+                                <li>Navigate to default gateway IP in browser.</li>
+                                <li>Update credentials in Admin tab.</li>
+                            </ul>
+                            <div class="text-xs text-teal-300">
+                                Rating: Excellent (Followed formatting constraints strictly).
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 3: Transcription Examples -->
+                <div id="tab-content-transcription" class="tab-content hidden space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <!-- English Example -->
+                        <div class="bg-navy-900/90 p-5 rounded-xl border border-white/10 space-y-3">
+                            <div class="flex items-center justify-between">
+                                <span class="font-bold text-white text-sm">English Audio Sample</span>
+                                <span class="text-xs font-mono text-teal-accent">Verbatim Mode</span>
+                            </div>
+                            <div class="p-3 bg-white/5 rounded-lg text-xs font-mono text-gray-300 leading-relaxed">
+                                "Um, please note that, uh, refunds usually take about three to five business days to reflect in your banking statement."
+                            </div>
+                            <div class="text-xs text-gray-400">
+                                <i class="fa-solid fa-check text-teal-accent"></i> Audio timestamps and filler words annotated per client guidelines.
+                            </div>
+                        </div>
+
+                        <!-- Filipino/Tagalog Example -->
+                        <div class="bg-navy-900/90 p-5 rounded-xl border border-white/10 space-y-3">
+                            <div class="flex items-center justify-between">
+                                <span class="font-bold text-white text-sm">Filipino/Tagalog Audio Sample</span>
+                                <span class="text-xs font-mono text-teal-accent">Clean Read Mode</span>
+                            </div>
+                            <div class="p-3 bg-white/5 rounded-lg text-xs font-mono text-gray-300 leading-relaxed">
+                                "Paki-check po ang inyong email para sa confirmation code at i-enter ito sa app upang ma-verify ang inyong account."
+                            </div>
+                            <div class="text-xs text-gray-400">
+                                <i class="fa-solid fa-check text-teal-accent"></i> Correct Taglish code-switching conventions applied.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="workflows" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-mono uppercase tracking-widest text-teal-accent mb-2">Standard Operating Procedures</h2>
+                <p class="text-3xl font-serif font-bold text-white">Tools & Workflows</p>
+                <div class="w-12 h-1 bg-teal-accent mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Customer Support Workflow -->
+                <div class="glass-card p-6 sm:p-8 rounded-2xl space-y-6">
+                    <h3 class="text-xl font-bold text-white flex items-center gap-3">
+                        <i class="fa-solid fa-headset text-teal-accent"></i>
+                        Customer Support Lifecycle
+                    </h3>
+
+                    <div class="space-y-4 text-sm">
+                        <div class="flex gap-4 items-start">
+                            <div class="w-8 h-8 rounded-lg bg-teal-accent/10 text-teal-accent font-mono font-bold flex items-center justify-center shrink-0">1</div>
+                            <div>
+                                <h4 class="font-bold text-white">Triage & Classification</h4>
+                                <p class="text-gray-400 text-xs mt-0.5">Categorize incoming CRM tickets (Zendesk/Bliss) based on severity, rider safety, or monetary urgency.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4 items-start">
+                            <div class="w-8 h-8 rounded-lg bg-teal-accent/10 text-teal-accent font-mono font-bold flex items-center justify-center shrink-0">2</div>
+                            <div>
+                                <h4 class="font-bold text-white">Cross-System Investigation</h4>
+                                <p class="text-gray-400 text-xs mt-0.5">Cross-reference trip GPS logs, merchant order history, and payment gateway status in Salesforce.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4 items-start">
+                            <div class="w-8 h-8 rounded-lg bg-teal-accent/10 text-teal-accent font-mono font-bold flex items-center justify-center shrink-0">3</div>
+                            <div>
+                                <h4 class="font-bold text-white">Empathetic Draft & Resolution</h4>
+                                <p class="text-gray-400 text-xs mt-0.5">Compose tailored, brand-aligned responses offering clear solutions or approved credits.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI Evaluation Workflow -->
+                <div class="glass-card p-6 sm:p-8 rounded-2xl space-y-6">
+                    <h3 class="text-xl font-bold text-white flex items-center gap-3">
+                        <i class="fa-solid fa-code-compare text-teal-accent"></i>
+                        AI Evaluation & Quality Process
+                    </h3>
+
+                    <div class="space-y-4 text-sm">
+                        <div class="flex gap-4 items-start">
+                            <div class="w-8 h-8 rounded-lg bg-teal-accent/10 text-teal-accent font-mono font-bold flex items-center justify-center shrink-0">1</div>
+                            <div>
+                                <h4 class="font-bold text-white">Prompt & Constraint Analysis</h4>
+                                <p class="text-gray-400 text-xs mt-0.5">Deconstruct system prompt expectations (word count, tone, negative constraints, formatting rules).</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4 items-start">
+                            <div class="w-8 h-8 rounded-lg bg-teal-accent/10 text-teal-accent font-mono font-bold flex items-center justify-center shrink-0">2</div>
+                            <div>
+                                <h4 class="font-bold text-white">Output Audit & Comparison</h4>
+                                <p class="text-gray-400 text-xs mt-0.5">Evaluate models for hallucinations, factual accuracy, safety violations, and conciseness.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4 items-start">
+                            <div class="w-8 h-8 rounded-lg bg-teal-accent/10 text-teal-accent font-mono font-bold flex items-center justify-center shrink-0">3</div>
+                            <div>
+                                <h4 class="font-bold text-white">Justification Logging</h4>
+                                <p class="text-gray-400 text-xs mt-0.5">Write clear, rubric-referenced justifications for rankings to inform model retraining.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="personal" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-mono uppercase tracking-widest text-teal-accent mb-2">Beyond Professional Work</h2>
+                <p class="text-3xl font-serif font-bold text-white">Hiking & Photography</p>
+                <div class="w-12 h-1 bg-teal-accent mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Gallery Item 1 -->
+                <div class="glass-card rounded-2xl overflow-hidden group cursor-pointer" onclick="openLightbox('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80', 'Mountain Horizon Trail')">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80" alt="Mountain Horizon Trail" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" onerror="this.src='https://placehold.co/600x400/1C2541/14B8A6?text=Hiking+Trail'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900 via-transparent to-transparent opacity-60"></div>
+                        <div class="absolute bottom-4 left-4 right-4 flex justify-between items-end">
+                            <div>
+                                <span class="text-xs text-teal-accent font-mono">HIKING</span>
+                                <p class="text-white font-bold text-sm">Mountain Ridge Trail</p>
+                            </div>
+                            <i class="fa-solid fa-expand text-white/80 group-hover:text-teal-accent transition-colors"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="glass-card rounded-2xl overflow-hidden group cursor-pointer" onclick="openLightbox('https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80', 'Starry Wilderness Night')">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=600&q=80" alt="Starry Wilderness Night" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" onerror="this.src='https://placehold.co/600x400/1C2541/14B8A6?text=Landscape+Photo'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900 via-transparent to-transparent opacity-60"></div>
+                        <div class="absolute bottom-4 left-4 right-4 flex justify-between items-end">
+                            <div>
+                                <span class="text-xs text-teal-accent font-mono">PHOTOGRAPHY</span>
+                                <p class="text-white font-bold text-sm">Wilderness Horizon</p>
+                            </div>
+                            <i class="fa-solid fa-expand text-white/80 group-hover:text-teal-accent transition-colors"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="glass-card rounded-2xl overflow-hidden group cursor-pointer" onclick="openLightbox('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80', 'Misty Forest Ascent')">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&q=80" alt="Misty Forest Ascent" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" onerror="this.src='https://placehold.co/600x400/1C2541/14B8A6?text=Nature+Exploration'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900 via-transparent to-transparent opacity-60"></div>
+                        <div class="absolute bottom-4 left-4 right-4 flex justify-between items-end">
+                            <div>
+                                <span class="text-xs text-teal-accent font-mono">NATURE</span>
+                                <p class="text-white font-bold text-sm">Misty Canopy Trek</p>
+                            </div>
+                            <i class="fa-solid fa-expand text-white/80 group-hover:text-teal-accent transition-colors"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            <div class="glass-card p-8 sm:p-12 rounded-3xl border border-teal-accent/30 text-center relative overflow-hidden">
+                <div class="max-w-2xl mx-auto space-y-6">
+                    <div class="w-16 h-16 rounded-2xl bg-teal-accent/10 text-teal-accent flex items-center justify-center text-3xl mx-auto">
+                        <i class="fa-regular fa-file-pdf"></i>
+                    </div>
+                    <h2 class="text-2xl sm:text-3xl font-serif font-bold text-white">Download Full Curriculum Vitae</h2>
+                    <p class="text-gray-300 text-sm sm:text-base">
+                        To access complete historical work experience, detailed project logs, and academic transcripts, download my verified PDF resume.
+                    </p>
+
+                    <!-- Instructions Banner -->
+                    <div class="p-4 bg-navy-900/80 rounded-xl border border-white/10 text-left text-xs font-mono text-gray-300 space-y-1">
+                        <span class="text-teal-accent font-bold block">GitHub Pages File Path Instruction:</span>
+                        <p>Place your PDF file in the repository at: <code class="text-white bg-white/10 px-1 py-0.5 rounded">assets/Almira-Bogayan-Resume.pdf</code></p>
+                    </div>
+
+                    <div class="pt-2">
+                        <a href="assets/Almira-Bogayan-Resume.pdf" target="_blank" download class="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-teal-accent text-navy-900 font-bold hover:bg-teal-400 transition-all shadow-lg shadow-teal-accent/20">
+                            <i class="fa-solid fa-download"></i>
+                            <span>Download PDF Resume</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-mono uppercase tracking-widest text-teal-accent mb-2">Initiate Contact</h2>
+                <p class="text-3xl font-serif font-bold text-white">Get In Touch</p>
+                <div class="w-12 h-1 bg-teal-accent mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="max-w-xl mx-auto glass-card p-8 rounded-3xl text-center space-y-6">
+                <p class="text-gray-300 text-sm sm:text-base">
+                    Interested in discussing customer support operations, AI evaluation assignments, or remote opportunities? Feel free to reach out via direct email.
+                </p>
+
+                <div class="p-4 bg-navy-900/90 rounded-2xl border border-teal-accent/30 inline-flex items-center gap-3 max-w-full overflow-x-auto">
+                    <i class="fa-solid fa-envelope text-teal-accent text-xl"></i>
+                    <span class="font-mono text-sm sm:text-base text-white">almirarillon@gmail.com</span>
+                </div>
+
+                <div class="pt-2">
+                    <a href="mailto:almirarillon@gmail.com" class="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-teal-accent text-navy-900 font-semibold hover:bg-teal-400 transition-all">
+                        <span>Send Email Direct</span>
+                        <i class="fa-solid fa-paper-plane text-xs"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-white/10 glass-card py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-lg bg-teal-accent flex items-center justify-center font-serif font-bold text-navy-900 text-sm">
+                    AB
+                </div>
+                <span class="text-sm font-semibold text-white">Almira R. Bogayan</span>
+            </div>
+
+            <nav class="flex flex-wrap justify-center gap-6 text-xs text-gray-400">
+                <a href="#about" class="hover:text-teal-accent transition-colors">About</a>
+                <a href="#skills" class="hover:text-teal-accent transition-colors">Skills</a>
+                <a href="#cases" class="hover:text-teal-accent transition-colors">Case Studies</a>
+                <a href="#ai-evaluation" class="hover:text-teal-accent transition-colors">AI Evaluation</a>
+                <a href="#resume" class="hover:text-teal-accent transition-colors">Resume</a>
+                <a href="#contact" class="hover:text-teal-accent transition-colors">Contact</a>
+            </nav>
+
+            <div class="text-xs text-gray-500 font-mono">
+                &copy; <span id="copyright-year"></span> Almira R. Bogayan. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Floating Button -->
+    <button id="back-to-top" type="button" aria-label="Back to top" class="fixed bottom-6 right-6 w-12 h-12 rounded-full bg-teal-accent text-navy-900 flex items-center justify-center shadow-2xl opacity-0 pointer-events-none transition-all duration-300 z-50 hover:bg-teal-400 focus:outline-none">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Photography Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 bg-navy-900/95 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-gray-400 hover:text-white text-3xl focus:outline-none" aria-label="Close modal">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="max-w-4xl w-full text-center space-y-4">
+            <img id="lightbox-img" src="" alt="Lightbox photo" class="max-h-[80vh] mx-auto rounded-xl shadow-2xl object-contain">
+            <p id="lightbox-caption" class="text-white font-medium text-sm font-mono"></p>
+        </div>
+    </div>
+
+    <!-- Notification Toast for Copy to Clipboard -->
+    <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-teal-accent text-navy-900 font-bold px-6 py-3 rounded-xl shadow-2xl transition-all duration-300 opacity-0 pointer-events-none z-50 flex items-center gap-2 text-sm">
+        <i class="fa-solid fa-check-circle"></i>
+        <span id="toast-message">Copied to clipboard!</span>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('copyright-year').textContent = new Date().getFullYear();
+
+            const mobileBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const menuIcon = document.getElementById('menu-icon');
+            const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+            mobileBtn.addEventListener('click', () => {
+                const isExpanded = mobileBtn.getAttribute('aria-expanded') === 'true';
+                mobileBtn.setAttribute('aria-expanded', !isExpanded);
+                mobileMenu.classList.toggle('hidden');
+                
+                if (mobileMenu.classList.contains('hidden')) {
+                    menuIcon.classList.remove('fa-xmark');
+                    menuIcon.classList.add('fa-bars');
+                } else {
+                    menuIcon.classList.remove('fa-bars');
+                    menuIcon.classList.add('fa-xmark');
+                }
+            });
+
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                    menuIcon.classList.remove('fa-xmark');
+                    menuIcon.classList.add('fa-bars');
+                    mobileBtn.setAttribute('aria-expanded', 'false');
+                });
+            });
+
+            const backToTopBtn = document.getElementById('back-to-top');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 400) {
+                    backToTopBtn.classList.remove('opacity-0', 'pointer-events-none');
+                    backToTopBtn.classList.add('opacity-100');
+                } else {
+                    backToTopBtn.classList.add('opacity-0', 'pointer-events-none');
+                    backToTopBtn.classList.remove('opacity-100');
+                }
+            });
+
+            backToTopBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+
+        function toggleAccordion(id) {
+            const content = document.getElementById(id);
+            const icon = document.getElementById(id + '-icon');
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+
+        function copyToClipboard(elementId, btnElement) {
+            const textToCopy = document.getElementById(elementId).innerText;
+            
+            // Fallback execCommand for iframe security constraints
+            const textarea = document.createElement('textarea');
+            textarea.value = textToCopy;
+            textarea.style.position = 'fixed';
+            textarea.style.opacity = '0';
+            document.body.appendChild(textarea);
+            textarea.select();
+            
+            try {
+                document.execCommand('copy');
+                showToast('Email text copied to clipboard!');
+            } catch (err) {
+                showToast('Failed to copy text.');
+            } finally {
+                document.body.removeChild(textarea);
+            }
+        }
+
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            const toastMsg = document.getElementById('toast-message');
+            toastMsg.textContent = message;
+            
+            toast.classList.remove('opacity-0', 'pointer-events-none');
+            toast.classList.add('opacity-100');
+            
+            setTimeout(() => {
+                toast.classList.add('opacity-0', 'pointer-events-none');
+                toast.classList.remove('opacity-100');
+            }, 3000);
+        }
+
+        function switchTab(tabKey) {
+            const tabs = ['h2h', 'sxs', 'transcription'];
+            
+            tabs.forEach(key => {
+                const content = document.getElementById(`tab-content-${key}`);
+                const btn = document.getElementById(`tab-btn-${key}`);
+                
+                if (key === tabKey) {
+                    content.classList.remove('hidden');
+                    btn.classList.add('bg-teal-accent', 'text-navy-900', 'shadow-lg');
+                    btn.classList.remove('bg-white/5', 'text-gray-300');
+                } else {
+                    content.classList.add('hidden');
+                    btn.classList.remove('bg-teal-accent', 'text-navy-900', 'shadow-lg');
+                    btn.classList.add('bg-white/5', 'text-gray-300');
+                }
+            });
+        }
+
+        function openLightbox(imgSrc, caption) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            const lightboxCaption = document.getElementById('lightbox-caption');
+            
+            lightboxImg.src = imgSrc;
+            lightboxCaption.textContent = caption;
+            lightbox.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close Lightbox on backdrop click
+        document.getElementById('lightbox').addEventListener('click', (e) => {
+            if (e.target.id === 'lightbox') {
+                closeLightbox();
+            }
+        });
+
+        // Close Lightbox on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeLightbox();
+            }
+        });
+    </script>
+</body>
+</html>
